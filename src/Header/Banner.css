@@ -1,0 +1,7 @@
+.Banner__Container {
+  width: 100%;
+  height: 97vh;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}

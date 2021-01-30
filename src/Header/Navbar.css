@@ -1,0 +1,43 @@
+.Navbar__Container {
+  display: flex;
+  position: fixed;
+  z-index: 999;
+  top: 0px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  transition: all 0.3s;
+}
+.Navbar__Color {
+  background: rgba(51, 41, 36, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  color: #9cb380 !important;
+}
+.Nav_Menus {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+.switch {
+  margin-right: 15px !important;
+}
+.Nav_Menus > h3 {
+  padding: 10px;
+}
+.MuiSwitch-colorSecondary.Mui-checked {
+  color: #ffd500 !important;
+}
+.MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+  background-color: #006283 !important;
+}
+.MuiSwitch-root {
+  height: 42px !important;
+  width: 65px !important;
+}
+.MuiSwitch-track {
+  background-color: #cae9ff !important;
+}

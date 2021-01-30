@@ -1,0 +1,16 @@
+.BannerRight__Container_Night {
+  flex: 3;
+  background-image: url("../icons/forest_night.svg");
+  background-position: left;
+  background-size: cover;
+  position: relative;
+  height: 97vh;
+}
+.BannerRight__Container_Sky {
+  flex: 3;
+  background-image: url("../icons/forest.svg");
+  background-position: left;
+  background-size: cover;
+  position: relative;
+  height: 97vh;
+}

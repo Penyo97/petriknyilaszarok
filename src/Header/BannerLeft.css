@@ -1,0 +1,25 @@
+.BannerLeft__Container {
+  background: #332924;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #9cb380;
+  flex-wrap: wrap;
+  position: relative;
+}
+.BannerLeft__Text {
+  font-size: 22pt;
+  padding-bottom: 60px;
+  padding-left: 15px;
+}
+.BannerLeft__Button {
+  background: #9cb380 !important;
+  color: #332924 !important;
+  font-weight: bold !important;
+}
+@media screen and (max-width: 600px) {
+  .BannerLeft__Text {
+    font-size: 16pt;
+  }
+}
