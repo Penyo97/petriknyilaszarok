@@ -1,0 +1,30 @@
+.footer__logo {
+  width: 120px;
+}
+.footer__Container {
+  display: flex;
+  justify-content: space-between;
+  color: #9cb380;
+  background-color: #332924;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.footer__line {
+  flex: 2;
+  margin-top: 10px;
+}
+.footer__copy {
+  flex: 1;
+  margin-left: 20px;
+}
+.footer__text {
+  padding-top: 2px;
+  display: flex;
+}
+.footer__icon {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+hr {
+  border: 1px solid #9cb380;
+}
