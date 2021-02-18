@@ -1,0 +1,16 @@
+.Main__button {
+  position: fixed !important;
+  z-index: 999 !important;
+  bottom: 1% !important;
+  right: 1% !important;
+  border: 1px solid #9cb380 !important;
+  color: #9cb380 !important;
+  height: 40px !important;
+  min-width: 40px !important;
+  width: 40px !important;
+}
+.Main__button:hover {
+  background-color: #9cb380 !important;
+  color: #332924 !important;
+  transition: all 1s;
+}

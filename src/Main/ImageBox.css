@@ -1,0 +1,26 @@
+.Imagebox__Container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.Imagebox__Img {
+  width: 580px;
+  max-width: 95%;
+  padding: 10px;
+  border-radius: 4%;
+  z-index: 10;
+}
+
+.Imagebox__ImgCont {
+  background: rgba(51, 36, 31, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  margin-top: 10px;
+  margin-right: 8px;
+  margin-left: 5px;
+}

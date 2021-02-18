@@ -1,0 +1,28 @@
+.MuiTab-textColorPrimary.Mui-selected {
+  color: #9cb380 !important;
+  font-weight: 700 !important;
+}
+.MuiTabs-flexContainer {
+  background-color: #251b18 !important ;
+}
+.MuiTab-textColorPrimary {
+  color: #9cb380 !important;
+}
+.PrivateTabIndicator-colorPrimary-6 {
+  background-color: #9cb380 !important;
+}
+.PrivateTabIndicator-root-5 {
+  height: 4px !important;
+}
+.Reference__Img {
+  position: absolute;
+  width: 100%;
+  top: 2%;
+  z-index: -10;
+}
+.Reference__Imgback {
+  position: absolute;
+  width: 100%;
+  bottom: -2%;
+  z-index: -10;
+}
