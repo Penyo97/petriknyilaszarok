@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import InlineMenu from "./InlineMenu";
 import HamburgerMenu from "./HamburgerMenu";
+import logo from "../icons/logo.svg";
 
 const Navbar = ({ check, handlecheck }) => {
   const [menu, setmenu] = useState(true);
@@ -30,7 +31,7 @@ const Navbar = ({ check, handlecheck }) => {
   return (
     <div className={`Navbar__Container ${menuscroll && "Navbar__Color"}`}>
       <div>
-        <h1>Navbar</h1>
+        <img src={logo} alt="logo" className="logo" />
       </div>
       {menu ? (
         <InlineMenu

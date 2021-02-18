@@ -7,7 +7,7 @@ const BannerLeft = () => {
   return (
     <div className="BannerLeft__Container">
       <div className="BannerLeft__Text">
-        <h1>Petrik Nyilászárók Kft.</h1>
+        <h1>Petrik Nyílászárók Kft.</h1>
         <br />
         <Button
           variant="contained"
@@ -15,6 +15,11 @@ const BannerLeft = () => {
           size="large"
           className="BannerLeft__Button"
           startIcon={<InfoIcon />}
+          onClick={() => {
+            document
+              .getElementById("about")
+              .scrollIntoView({ behavior: "smooth" });
+          }}
         >
           Rólunk
         </Button>

@@ -45,7 +45,15 @@ const HamburgerMenu = ({ check, handlecheck, menuscroll }) => {
           <ListItem button></ListItem>
           <ListItem button>
             <ListItemText>
-              <h3>Rólunk</h3>
+              <h3
+                onClick={() => {
+                  document
+                    .getElementById("about")
+                    .scrollIntoView({ behavior: "smooth" });
+                }}
+              >
+                Rólunk
+              </h3>
             </ListItemText>
           </ListItem>
           <ListItem button>
@@ -55,7 +63,15 @@ const HamburgerMenu = ({ check, handlecheck, menuscroll }) => {
           </ListItem>
           <ListItem button>
             <ListItemText>
-              <h3>Referenciák</h3>
+              <h3
+                onClick={() => {
+                  document
+                    .getElementById("reference")
+                    .scrollIntoView({ behavior: "smooth" });
+                }}
+              >
+                Referenciák
+              </h3>
             </ListItemText>
           </ListItem>
 

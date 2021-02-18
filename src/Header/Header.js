@@ -3,7 +3,7 @@ import Banner from "./Banner";
 
 const Header = () => {
   return (
-    <div>
+    <div id="header">
       <Banner />
     </div>
   );

@@ -7,6 +7,8 @@
   align-items: center;
   width: 100%;
   padding: 10px;
+  padding-bottom: 7px;
+  padding-top: 7px;
   transition: all 0.3s;
 }
 .Navbar__Color {
@@ -22,8 +24,14 @@
   align-items: center;
   font-weight: bold;
 }
+.Nav_Menus > h3:hover {
+  transform: scale(1.1);
+}
 .switch {
   margin-right: 15px !important;
+}
+.logo {
+  width: 110px;
 }
 .Nav_Menus > h3 {
   padding: 10px;
